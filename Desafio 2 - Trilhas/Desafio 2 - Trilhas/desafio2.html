@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="assets/css/styles.css">
+    <title>INOVATECH - Inscrição </title>
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+</head>
+
+<body>
+    <div class = "container"> 
+        <div class = "form-image">
+            <img src="assets/imagens/logo.png">
+        </div>
+        <div class="form">
+            <form action="#">
+                <div class="form-header"> 
+                    <div class="title">
+                        <h1>Inscreva-se</h1>
+                    </div>
+                </div>
+
+                <div class="input-group"> 
+                    <div class="imput-box">
+                        <div class="input-box">
+                            <label for="fullname">Nome Completo</label>
+                            <input id="fullname" type="text" name="fullname" placeholder="Digite seu nome completo" required>
+                        </div>
+                    </div>
+                    <div class="imput-box">
+                        <div class="input-box">
+                            <label for="birthdate">Data de Nascimento</label>
+                            <input id="birthdate" type="text" name="birthdate" pattern="\d{2}/\d{2}/\d{4}" placeholder="dd/mm/aaaa" required>
+                        </div>                        
+                    </div>
+                    <div class="input-box">
+                        <label for="cpf">CPF</label>
+                        <input id="cpf" type="text" name="cpf" pattern="\d{3}\.\d{3}\.\d{3}-\d{2}" placeholder="000.000.000-00" required>
+                    </div>
+                    <div class="imput-box">
+                        <div class="input-box">
+                            <label for="useremail">Email</label>
+                            <input id="useremail" type="email" name="useremail" placeholder="Digite seu email" required>
+                        </div>                        
+                    </div>
+                    <div class="gender-inputs">
+                        <div class="gender-title">
+                            <h6>GÊNERO</h6>
+                        </div>
+                        <div class="gender-group">
+                            <div class="gender-input">
+                                <input type="radio" id="female" name="gender">
+                                <label for="female">Feminino</label>
+                            </div>
+    
+                            <div class="gender-input">
+                                <input type="radio" id="male" name="gender">
+                                <label for="male">Masculino</label>
+                            </div>
+                            <div class="gender-input">
+                                <input type="radio" id="none" name="gender">
+                                <label for="none">Prefiro não informar</label>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="imput-box">
+                        <div class="input-box">
+                            <label for="userphone">Celular</label>
+                            <input id="userphone" type="tel" name="userphone" placeholder="(xx) xxxxx-xxxx" required>
+                        </div>                        
+                    </div>
+                    <div class="input-box">
+                        <label for="education_level">Grau de Escolaridade</label>
+                        <input id="education_level" type="text" name="education_level" placeholder="Digite seu grau de escolaridade" required>
+                    </div>                                                          
+                    <div class="input-box">
+                        <label for="institution">Instituição de Ensino</label>
+                        <input id="institution" type="text" name="institution" placeholder="Digite o nome da sua instituição de ensino" required>
+                    </div>   
+                    <div class="input-box">
+                        <label for="city">Cidade</label>
+                        <input id="city" type="text" name="city" placeholder="Digite sua cidade" required>
+                    </div>
+                    <div class="input-box">
+                        <label for="state">Estado</label>
+                        <input id="state" type="text" name="state" placeholder="Digite seu estado" required>
+                    </div>                    
+                                                         
+                    <div class="track-inputs">
+                        <div class="track-title">
+                            <h6>ESCOLHA A TRILHA DE SUA PREFERÊNCIA</h6>
+                        </div>
+                        <div class="track-group">
+                            <div class="track-input">
+                                <input type="radio" id="frontend" name="track" value="frontend">
+                                <label for="frontend">Front - End</label>
+                            </div>
+                    
+                            <div class="track-input">
+                                <input type="radio" id="backend" name="track" value="backend">
+                                <label for="backend">Back - End</label>
+                            </div>
+                            
+                            <div class="track-input">
+                                <input type="radio" id="datascience" name="track" value="datascience">
+                                <label for="datascience">Ciência de Dados</label>
+                            </div>
+                            
+                            <div class="track-input">
+                                <input type="radio" id="design" name="track" value="design">
+                                <label for="design">Design e Experiência</label>
+                            </div>
+                            
+                            <div class="track-input">
+                                <input type="radio" id="games" name="track" value="games">
+                                <label for="games">Criação de Jogos</label>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="button-container">
+                    <div class="continue-button">
+                        <button><a href="#">Enviar</a></button>
+                    </div>
+                    <div class="continue-button">
+                        <button type="reset">Limpar Dados</button>
+                    </div>
+                </div>
+                
+            </form>
+        </div>
+        
+        
+    </div>
+    
+    <footer>
+    </footer> 
+</body>
+</html>
